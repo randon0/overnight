@@ -47,6 +47,7 @@ span.link {
   flex-direction: row;
   justify-content: flex-end;
   margin-right: 3%;
+  margin-left: 3%;
 }
 div.float-left {
   float: left;
