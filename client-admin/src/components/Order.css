@@ -1,0 +1,29 @@
+/* CSS cho các kích thước lớn hơn hoặc bằng 768px (iPad) */
+@media only screen and (min-width: 768px) {
+    /* Đặt lại chiều rộng của bảng */
+    table {
+      width: 100%;
+    }
+  
+    /* Đặt lại chiều rộng của các cột trong bảng chi tiết đơn hàng */
+    .cate-datatable td {
+      width: auto;
+    }
+  }
+  
+  /* CSS cho các kích thước nhỏ hơn 768px (di động) */
+  @media only screen and (max-width: 767px) {
+    /* Đặt lại các thuộc tính để phù hợp với màn hình di động */
+    table {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch; /* Cho phép cuộn trên iOS */
+    }
+  
+    /* Đặt lại kích thước của hình ảnh */
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
