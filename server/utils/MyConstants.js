@@ -5,7 +5,7 @@ const MyConstants = {
   DB_DATABASE: 'shoppingonline',
   JWT_SECRET: 'hehe',
   JWT_EXPIRES: '36000000', // in milliseconds
-  EMAIL_USER: 'cuuvy2333@gmail.com', // gmail service
-  EMAIL_PASS: 'mhhwbzmbvvofyzlt'
+  EMAIL_USER: 'tpnightcore42@gmail.com', // gmail service
+  EMAIL_PASS: 'qpnkdjnzaqjzvkeq'
 };
 module.exports = MyConstants;
